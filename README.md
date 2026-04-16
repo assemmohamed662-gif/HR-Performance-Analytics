@@ -1,2 +1,2 @@
 # HR-Performance-Analytics
-An interactive Excel dashboard for analyzing workforce performance and salary trends using Power Query and advanced data logic.
+An interactive HR dashboard for analyzing employee performance and salary trends using Power Query and advanced data logic.

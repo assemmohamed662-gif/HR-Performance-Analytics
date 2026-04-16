@@ -2,7 +2,6 @@
 
 ## 📊 Dashboard Preview
 ![Dashboard Preview](Excel_Dashboard.png) 
-*(Note: Make sure your screenshot file is named exactly Dashboard_Preview.png or change this name to match your file)*
 
 ## 🎯 Project Objective
 This project transforms raw HR data into actionable business insights. By analyzing performance trends, salary distributions, and education impacts across multiple branches (Alexandria, Cairo, Tanta), this tool helps HR management make data-driven decisions.

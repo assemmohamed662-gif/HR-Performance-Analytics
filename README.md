@@ -3,20 +3,22 @@
 ## 📊 Dashboard Preview
 ![Dashboard Preview](Excel_Dashboard.png) 
 
-## 🎯 Project Objective
-This project transforms raw HR data into actionable business insights. By analyzing performance trends, salary distributions, and education impacts across multiple branches (Alexandria, Cairo, Tanta), this tool helps HR management make data-driven decisions.
+## 🎯 The Story of the Project
+The goal of this project was to consolidate scattered HR data and present it in a clear, concise story about branch performance and salary trends. I wanted to answer a simple question: *Where is our investment in people showing the best results?*
 
-## 🛠️ Data Cleaning & Transformation (Power Query)
-* **Multi-Source Integration:** Appended all individual data sheets via Power Query to create a single, dynamic HR Master Table.
-* **Data Quality:** Corrected data types and resolved naming inconsistencies across branch locations.
-* **Null Management:** Applied "Fill Down" logic for missing Department fields to ensure 100% data integrity.
+## 🛠️ Step-by-Step Transformation
+Following a structured ETL process, I prepared the data for analysis:
 
-## 🧠 KPI Development & Logic Design
-* **Tenure Tracking:** Calculated Employee Age and HR experience tenure using precise date-diff logic.
-* **Performance Benchmarking:** Aggregated multiple HR performance metrics to establish a baseline for success.
-* **Growth Analytics:** Engineered a "Performance Delta" column to calculate year-over-year growth (%).
+1. **Consolidation:** I combined multiple data sources (Tabs) into one "Master Table" using Power Query to ensure a single version of the truth.
+2. **Data Integrity:** I audited the data to fix formatting for dates and percentages, and used "Fill Down" logic to fix missing department names.
+3. **Data Cleaning:** I manually resolved naming inconsistencies in city locations (like Cairo and Alexandria) to ensure the charts didn't show duplicate categories.
+4. **KPI Design:** I built custom logic to calculate:
+   * **Age & Tenure:** Measuring employee experience by years.
+   * **Performance Benchmarking:** Creating an "Average Total %" to baseline success.
+   * **Growth Analysis:** Calculating the "Delta" (the difference) in performance to see who is improving year-over-year.
 
-## 💡 Key Insights & Recommendations
-* **Top Branch:** Alexandria leads with 47% of salary spend but returns the highest performance growth (16%).
-* **Education Factor:** Employees with Bachelor's degrees (بكالوريوس) drive the highest performance results.
-* **Recommendation:** Investigate the gap in Cairo where higher salaries are not yet reflecting the performance growth seen in other regions.
+## 💡 What the Data Told Me
+* **Alexandria is thriving:** While it has the highest salary spend (47%), it also shows the strongest performance growth at 16%.
+* **Education Matters:** There is a clear link between Bachelor's degrees (بكالوريوس) and higher performance scores.
+* **Opportunity in Cairo:** The data suggests an opportunity to investigate why higher salaries in the Cairo branch haven't yet resulted in the same growth seen in other regions.
+

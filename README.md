@@ -52,6 +52,6 @@ equivalent growth — worth investigating.
 ---
 
 ## 📬 Contact
-
 - **Name:** Assem Mohamed
 - **GitHub:** [assemmohamed662-gif](https://github.com/assemmohamed662-gif)
+- **LinkedIn:** [Assem Hasanen](https://www.linkedin.com/in/assem-hasanen)
